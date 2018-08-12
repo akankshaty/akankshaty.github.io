@@ -438,3 +438,31 @@ h2 a {
 .custom-a a:focus, a:hover, a:active{
     color: #228693;
 }
+
+.btn.nohover:hover {
+    cursor:default !important;
+    background-color: white;
+}
+
+.skills-link a:focus, a:hover, a:active {
+    color: #228693;
+    outline-color: white;
+}
+
+.circle {
+    position:relative; 
+    display:inline-block;
+
+}
+
+.circles-text-wrp {
+    position:absolute; 
+    top:0; 
+    left:0; 
+    text-align:center; 
+    width:100%; 
+    font-size:1.2rem; 
+    height:50px; 
+    line-height:100px;
+}
+
