@@ -449,20 +449,12 @@ h2 a {
     outline-color: white;
 }
 
-.circle {
-    position:relative; 
-    display:inline-block;
-
+.skill{
+    color: #343a40;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #343a40;
+    border-radius: 3px;
+    padding: 10px 10px;
 }
-
-.circles-text-wrp {
-    position:absolute; 
-    top:0; 
-    left:0; 
-    text-align:center; 
-    width:100%; 
-    font-size:1.2rem; 
-    height:50px; 
-    line-height:100px;
-}
-
