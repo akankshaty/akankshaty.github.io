@@ -223,17 +223,22 @@ header.masthead h2 {
   font-size: 1.5rem;
 }
 
+.skill-caption, .skill-items{
+    text-align: center;
+}
+
 @media (min-width: 576px) {
-  .portfolio {
+    .portfolio {
     margin-bottom: -30px;
-  }
-  .portfolio .portfolio-item {
+    }
+    .portfolio .portfolio-item {
     margin-bottom: 30px;
-  }
-    
+    }
+
     .exp h5 {
         text-align: center;
     }
+    
 }
 
 .portfolio-modal .portfolio-modal-dialog {
@@ -278,6 +283,11 @@ header.masthead h2 {
 .exp ul {
     padding: 0;
     }
+    
+.skill-caption, .skill-items {
+        text-align: left;
+    }
+
 
 }
 
@@ -435,10 +445,6 @@ h2 a {
     color: white;
 }
 
-.custom-a a:focus, a:hover, a:active{
-    color: #228693;
-}
-
 .btn.nohover:hover {
     cursor:default !important;
     background-color: white;
@@ -453,8 +459,13 @@ h2 a {
     color: #343a40;
     display: inline-block;
     margin-right: 10px;
-    margin-bottom: 15px;
+    margin-top: 15px;
     border: 2px solid #343a40;
     border-radius: 3px;
     padding: 10px 10px;
+}
+
+.skill-items {
+    list-style-type: none;
+    padding: 0;
 }
